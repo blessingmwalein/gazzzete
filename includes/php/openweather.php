@@ -2,7 +2,7 @@
 
 	$executionStartTime = microtime(true) / 1000;
 
-	$url='http://api.weatherapi.com/v1/forecast.json?key=17f57c64a4f04efea2291727212501&q='.$_REQUEST["lat"].','. $_REQUEST["lon"].'&days=1';
+	$url='https://api.weatherapi.com/v1/forecast.json?key=17f57c64a4f04efea2291727212501&q='.$_REQUEST["lat"].','. $_REQUEST["lon"].'&days=1';
 
 	$ch = curl_init();
 	curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);

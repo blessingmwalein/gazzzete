@@ -721,7 +721,7 @@
     <!-- <script src="./assets/js/dashboard.js"></script> -->
 
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
-    <script type="text/javascript" src="http://maps.google.com/maps/api/js?libraries=geometry,places&key=AIzaSyDDM2_SEiH2ZsB2_recgP3vKSxHHrCLN3A"></script>
+    <script type="text/javascript" src="https://maps.google.com/maps/api/js?libraries=geometry,places&key=AIzaSyDDM2_SEiH2ZsB2_recgP3vKSxHHrCLN3A"></script>
     <script src="https://cdn.jsdelivr.net/npm/vue@2.6.12/dist/vue.js"></script>
     <script src="./event_bus.js"></script>
     <script src="./includes/api.js"></script>
